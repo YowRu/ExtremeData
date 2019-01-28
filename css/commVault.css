@@ -1,0 +1,50 @@
+#main{padding-top: 140px; position:relative;}
+.productNo{display: none;}
+#main .nav{width:100%;height:40px;line-height:40px;margin-bottom: 10px;padding: 0 1%;box-sizing:border-box;
+position:fixed;left: 0;top:76px;z-index:2;overflow:visible;border-bottom:3px solid #fff;
+background-color:#C91C1A;display:flex;justify-content:center;align-items: center;
+}
+#main .nav:before{content:'';display:block;width:100%;height:1px;background-color:#fff;
+position:absolute;top:-1px;left:0;}
+#main .nav li{display:inline-block;width:100%;padding:0 10px;display:inline-block;cursor:pointer;text-align: center;}
+#main .nav li a{display:inline-block;width:100%;color:#fff;text-align:center;cursor:pointer;}
+#main .nav li.current{background-color: #fff; }
+#main .nav li.current a{color:#C91C1A;}
+#main .nav:hover{background-color:#555; }
+h2{text-align: center;margin:0 auto 20px;color:#555;}
+h3,h4,p,ul.c,ul{width:800px;margin:0 auto;color:#555;}
+h3,h4{font-size:1.1rem;margin-bottom:5px;}
+h4{font-weight: normal;}
+h3:before{content:'▧';margin-right:3px;color:#C91C1A;}
+h4:before{content:'≣';margin-right:3px;color:#C91C1A;font-size:1.2rem;}
+p{margin-bottom:20px;color:#666;}
+#main ul.c li{margin-bottom:10px;margin-left:3px;}
+#main ul.c li:before{content:'≣';margin-right:3px;color:#C91C1A; }
+table{width:800px;margin:40px auto;border:1px solid #bbb; }
+table tr td{padding:10px;border:1px solid #bbb;}
+table tr td:nth-of-type(1){width:30%;}
+table tr td:nth-of-type(2){width:70%;}
+span{display: block;width: 80%;text-align: center;margin: 0 auto;margin-bottom: 20px;}
+@media(max-width:1024px){
+    #main .nav{flex-wrap: wrap;height:auto;}
+    #main .nav li.current{background-color:transparent; }
+#main .nav li.current a{color:#fff;border-bottom:2px solid #fff;}
+}
+@media(max-width:1000px){
+    h3,h4,p,ul.c,table,img,ul{width:90%;}
+}
+
+@media(max-width:600px){
+#main .nav li{margin:0;}
+}
+@media(max-width:500px){
+#main .nav{flex-wrap: wrap;height: auto;}
+img{width:98%;}
+
+}
+@media(max-width:350px){
+    h3,h4,p,ul.c,ul{width:95%;}
+    table{width:98%;}
+    #main .nav li{margin:0;}
+    
+}

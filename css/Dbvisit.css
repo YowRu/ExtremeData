@@ -1,0 +1,15 @@
+.d li p{width:100%;}
+    .d li{margin-bottom:20px;}
+    ul.d{width:800px;margin:0 auto;color:#555;}
+    h4:before{content:'▧';margin-right:3px;color:#C91C1A;}
+    img{display:block;width:700px;margin:0 auto;}
+@media(max-width:1000px){
+        h3,p,ul.d,img{width:90%;}
+    }
+@media(max-width:500px){
+       img{width:98%;}
+    }
+    @media(max-width:350px){
+        h3,p,ul.d{width:95%;}
+        #main .nav li{margin:0;}
+    }

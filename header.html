@@ -1,0 +1,58 @@
+<div class="wp">
+    <img src="img/logo1.png">
+    <ul class="up">
+        <li><a href="index.html">關於聚達</a></li>
+        <li><a href="integration.html">智能物聯網應用</a></li>
+        <li><a href="product.html">經銷商品</a></li>
+        <li><a href="service.html">顧問諮詢服務</a></li>
+        <li><a href="software.html">軟體開發服務</a></li>
+    </ul>
+    <nav>
+        <span></span>
+        <span></span>
+        <span></span>
+    </nav>
+     <div class="menu">
+       <a href="index.html">關於聚達</a>
+       <a href="integration.html">智能物聯網應用</a>
+       <a href="product.html">經銷商品 </a>
+       <a href="service.html">顧問諮詢服務 </a>
+       <a href="software.html">軟體開發服務</a>
+    </div>
+</div>
+<h1>聚達系統</h1>
+<div class="bg"></div>
+<script>
+ window.addEventListener("load",function() {  
+  setTimeout(function(){
+  window.scrollTo(0, 1); }, 10);
+});
+
+/*menu*/
+    
+$(window).resize(function(){
+    var $H=$(window).height();
+    $('header .menu').height($H-80);
+    $('header .bg').height($H);
+    $('header .menu').hide();
+    $('header .bg').hide();
+     $('header nav').removeClass('menuOpen');
+});
+var $H=$(window).height();
+$('header .menu').height($H-80);
+$('header .bg').height($H);
+$('header nav').click(function(){
+    $('header .menu').slideToggle().css('display','flex');
+    $('header .bg').toggle();
+    $('header nav').toggleClass('menuOpen');
+});
+$('header .bg').click(function(){
+    $('header .menu').fadeToggle();
+    $('header .bg').toggle();
+    $('header nav').toggleClass('menuOpen'); 
+});
+    
+
+    var pageNo = $('.pageNo').text();
+$('header .up li').eq(pageNo).addClass('current');
+</script>

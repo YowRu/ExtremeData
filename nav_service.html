@@ -1,0 +1,11 @@
+<ul>
+   <li><a href="ma_service.html">中繼層架構</a></li>
+   <li><a href="pm_service.html">效能監控</a></li>
+   <li><a href="db_service.html">資料庫</a></li>
+</ul>
+<script>
+var $W=$(window).width();
+var $H=$(window).height();   
+var serviceNo = $('.serviceNo').text();
+$('.nav_service li').eq(serviceNo).addClass('current');
+</script>

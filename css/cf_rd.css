@@ -1,0 +1,9 @@
+
+    .center{background-color: #f2f2f2;margin-bottom: 20px;text-align: center;padding:3%;}   
+    @media(max-width:699px){
+        p.center{width:80%;padding:2%; } 
+    }
+    
+    @media(max-width:600px){
+        p.center{padding:2% 1%;box-sizing: border-box;}
+    }

@@ -1,0 +1,157 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+#main {padding-top:72px;}
+#main .img{position:relative; text-align: center;height:570px;overflow:hidden;}
+#main .img:before{content:'';display:block;width:100%;height:570px;background-color: rgba(0, 0, 0, 0.7);
+position: absolute;top:0;left:0;z-index:-1;}
+#main .img img {width: 100%;height:570px;object-fit: cover;object-position: 50% 10%;}
+#main .row1{width:100%;height:580px;display:flex;flex-direction:column;align-items:center;
+background: url('../img/company/s5.png') no-repeat center;background-size:cover;}
+#main .row1 h2 {color: #fff;margin-top:70px;text-align: center;border:1px solid rgba(255, 255, 255, 0.49);padding:5px 15px;}
+#main .row1 .flex {max-width:1000px;width:90%;margin:30px auto;
+display:flex;justify-content: space-around;align-items:flex-end;}
+#main .row1 .flex .left {width:60%;margin:30px auto 0}
+#main .row1 .flex .left>p:nth-of-type(1){width:auto;text-align:center;font-size:2rem;margin-bottom:20px;color:#fff;}
+#main .row1 .flex .left .content{width:90%;margin:30px auto;font-size:1rem;line-height:2.7rem;color:#fff;text-align:left;}
+#main .row1 .flex .right{width:40%;color:#fff;font-size:1.4rem;text-align:right;margin-right:5%;}
+#main .row1 .flex .right p {color: #fff;font-size:1.1rem;width: auto;}
+#main .row2{width:100%;padding:70px 0; background-color:#fff;}
+#main .row2 .row{max-width:1000px;width:100%;margin:0 auto;display:flex;justify-content:center;align-items:center;}
+#main .row2 .row a{display:inline-block;width:30%;height:190px;margin:0.5%;border-radius:5px;
+text-align:center;color:#fff;font-size:1.4rem;position:relative;} 
+#main .row2 .row a:nth-of-type(1){display:block;
+background:url('../img/company/s1.png') no-repeat center;background-size:cover;}
+#main .row2 .row a:nth-of-type(2){display:block;
+background:url('../img/company/s2.png') no-repeat center;background-size:cover;}
+#main .row2 .row a:nth-of-type(3){display:block;
+background:url('../img/company/s3.png') no-repeat center;background-size:cover;}
+#main .row2 .row a:nth-of-type(4){display:block;
+background:url('../img/company/s4.png') no-repeat center;background-size:cover;}
+#main .row2 .row a>img{width: auto;height:90px;position:absolute;z-index: 1;right:15px;bottom:28px;}
+#main .row2 .row a p{width:120px;height:30px;position:relative;z-index: 1;padding:5px 10px;margin:-30px auto 0;}
+#main .row2 .row a p {width: 100%;margin: 20px 0 0 20px;text-align: left;font-size: 1.4rem;color: #fff;}
+#main .row2 .row a:hover p{color: aqua;}  
+@media(max-width:1555px){
+    #main .down p:after,
+    #main .down p:hover:after,
+    #main .down p:active:after{height:268px;bottom:-27px;left: -24px;}
+}
+@media(max-width:1340px){
+    #main .up{width:100%;}
+}
+@media(max-width:1280px){
+    #main div.down{width:90%;}
+}
+ @media(max-width:1250px){
+    span.r2{font-size:1.8rem;}
+    span.r3{font-size:1.5rem; }
+    #main .down p:after,
+    #main .down p:hover:after,
+    #main .down p:active:after{height:259px;}
+}
+@media(max-width:1080px){
+    span.r2{font-size:1.6rem;}
+    span.r3{font-size:1.3rem;}
+}
+@media(max-width:1024px){
+    #main .down p:after,
+    #main .down p:hover:after,
+    #main .down p:active:after{height:242px;}
+    .down p{width:41%;}
+    #main .row1 .flex .left{ width:65%;}
+}
+@media(max-width:900px){
+    #main .row1{height:auto;}
+    #main .row1 .flex .left>p:nth-of-type(1){display: none;}
+    #main .row1 .flex{display: block;}
+    #main .row1 .flex .left {width:60%;}
+    #main .row1 .flex .right{width: 100%;}
+    #main .row1 .flex .right p{font-size:1.3rem;}
+}
+@media(max-width:871px){
+    span.r2 {font-size: 1.4rem;}
+    span.r3{font-size:1.1rem;}
+}
+@media(max-width:800px){
+    #main div.down{width: 100%;}   
+    #main .row1 .flex .left { width:75%;}
+    #main .row2 .row a{width:40%;}
+    #main .row2 .row a p{margin:0 auto;}
+    #main .up{height:400px;}
+    #main .img img{object-position:0% 10%;}
+}
+@media(max-width:750px){
+    .down p{width:38%;}
+}
+@media(max-width:700px){
+    #main .up p{font-size:1.4rem;}
+    #main .row2 .row a{width:45%;}
+}
+@media(max-width:673px){
+    #main .up p{font-size:1.3rem;}
+    .down p{width:70%;margin:7% auto;}
+    span.r2{font-size:2rem;}
+    span.r3{font-size:1.7rem;}
+    #main .down p:after, 
+    #main .down p:hover:after, 
+    #main .down p:active:after{height: 259px;}
+}
+ 
+@media(max-width:645px){
+    #main .row1 .flex .left { width:95%;}
+    #main .row2 .row{flex-direction: column;}
+    #main .row2 .row a{width:80%;height:120px;}
+    #main .row2 .row a>img{height:80px;bottom:20px;}
+}
+@media(max-width:600px) {
+    #main .row1 .flex .left>p:nth-of-type(1){font-size:1.7rem;}
+    #main .row1 .flex .right p{font-size:1.2rem;}
+}
+@media(max-width:555px){
+    #main div.down{100%;}
+    .down p{width: 77%;}
+    #main .up .wp{padding-left: 0;}
+}
+@media(max-width:550px) {
+    #main .row1 .flex .left{width:98%;}
+    #main .row1 .flex .left>p:nth-of-type(1){font-size:1.3rem;font-weight:bold;}
+    #main .row1 .flex .right p{font-size:1rem;}
+}
+@media(max-width:570px){
+    #main .up,#main .up:before{height: 400px;}
+    #main .up .wp.pc{display: none;}
+    #main .up .wp.m{display: block;padding-top: 144px;}
+    #main .up p{font-size:2.1rem;font-weight: bold;text-align: center;width: 100%;}
+}
+@media(max-width:488px) {
+    #main .row1 .flex{width:98%;}
+}
+@media(max-width:470px){
+    span.r2{font-size:1.8rem;}
+}
+@media(max-width:414px){
+    #main .row2 .row a{width:90%;}
+}
+@media(max-width:375px){
+    #main .row2,#main .row2 .row{height:570px;} 
+    #main .row2{padding:10px 0;}
+    #main .down p:after,
+    #main .down p:hover:after,
+    #main .down p:active:after {height: 229px;}
+    #main .up .wp.m{padding-top: 116px;}
+    #main .up,#main .up:before{height:350px;}
+    #main .up p {font-size:1.9rem;}
+    span.r2{font-size:1.4rem;}
+    span.r3{font-size:1.1rem;}
+    #main .img img{object-position:5% 10%;}
+}
+@media(max-width:350px){
+    #main .row1 .flex .left>p:nth-of-type(1){font-size:1.2rem;}
+    #main .row1 .flex .left .content{line-height:2.1rem;}
+    #main .row2 .row a{width:95%;height:100px;}
+    #main .row2 .row a>img{height:70px;}
+}
+@media(max-width:320px){
+    #main .row2,#main .row2 .row{height:400px;} 
+    #main .row2 .row a p{font-size:1.2rem;}
+    #main .img {height: 399px;}
+}

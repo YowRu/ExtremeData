@@ -1,0 +1,149 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+#main {padding-top: 116px;}
+#main .up{max-width:100%;width:100%;background:url(../img/bg/619.png) no-repeat left center;
+background-size: contain;height:350px;position: relative;
+background-color:#00394f;display:block;}
+#main .up:before{content:'';display:block;width:100%;height:100%;background-color:rgba(0, 57, 79, 0.3);
+position:absolute;left:0;top:0;}
+#main .up .right{max-width:1440px;width:100%;margin:0 auto;position: relative;}
+#main .up .right .wp{position:absolute;right:10%;width:50%;padding-left:20%;box-sizing:border-box;
+padding-top:0;margin-top: 60px;}
+#main .up p{border:0;color: #fff;font-size:2rem;}
+#main div.down{display:flex;justify-content:center;flex-wrap:wrap;max-width:1440px;width:80%;
+margin:0 auto;padding-top:40px;padding-bottom:80px;} 
+.down p{width:22%;margin:3%;border:1px solid #6a6a6a;padding:10px;background-color:#fff;position:relative;transition: all 0.4s;}
+.down p:hover,.down p:active{background-color:#b7100e;border:1px solid #b7100e;}
+.down p:hover span,.down p:active span{color: #fff;}
+span{color:#444;text-align:left;width:100%;margin:0;margin-bottom:15px;}
+span.r1{font-size: 13px;}
+#main div.down.down p:after{content:'';display:block;width:100%;height:189px;background:url(../img/bg/bg.png) no-repeat left center;
+background-size:cover;position:absolute;bottom:-30px;left:-20px;z-index:-1;}
+#main div.down.down p:hover:after,#main div.down.down p:active:after
+{content:'';display:block;width:100%;height:189px;background:url(../img/bg/h_bg.png) no-repeat left center;
+background-size:cover;position:absolute;bottom:-30px;left:-20px;z-index:-1;}
+span.r2{font-size: 2.5rem;}
+span.r3{font-size: 1.6rem;font-family:'Trebuchet MS';margin-left:5px;}
+span.r3.c{font-size:1.4rem;margin-left: 7px;}
+span.r3.c.p{margin-left: 9px;}
+span.r4{text-align:right;font-size:13px;margin-bottom: 0;}
+@media(max-width:1555px){
+    #main div.down.down p:after,
+    #main div.down.down p:hover:after,
+    ,#main div.down.down p:active:after{height:175px;bottom:-27px;left: -24px;}
+    span.r2{font-size: 2.3rem;}
+    span.r3{font-size: 1.2rem;}
+    span.r3.c{font-size:1rem;}
+}
+@media(max-width:1440px){
+    #main .up{max-width:100%;width:100%;background:url(../img/bg/619.png) no-repeat -10% center;
+        background-size: contain;background-color:#00394f ;}
+    #main .up .right .wp{width: 60%;padding-left: 25%;}
+}
+@media(max-width:1340px){
+    span.r2{font-size: 2.1rem;}
+    #main .up{max-width:100%;width:100%;background:url(../img/bg/619.png) no-repeat -20% center;
+        background-size: contain;background-color:#00394f ;}
+
+}
+@media(max-width:1280px){
+    span.r2{font-size: 2rem;}
+    #main div.down.down p:after,
+    #main div.down.down p:hover:after,
+    #main div.down.down p:active:after{height:165px;}
+}
+ @media(max-width:1200px){
+    span.r2{font-size: 1.8rem;}
+     #main .up{max-width:100%;width:100%;background:url(../img/bg/619.png) no-repeat -20% center;
+        background-size: contain;background-color:#00394f ;}
+    #main .up .right .wp {width: 65%;padding-left: 25%;right: 0;}
+}
+@media(max-width:1080px){
+    .down p{width: 23%;}
+    span.r2{font-size: 1.6rem;}
+    #main div.down.down p:after,
+    #main div.down.down p:hover:after,
+    #main div.down.down p:active:after{bottom:-17px;left: -15px;height: 160px;}
+}
+@media(max-width:1045px){
+    #main .up .right .wp{padding-left: 23%;}
+    #main .up{max-width:100%;width:100%;background:url(../img/bg/619.png) no-repeat -30% center;
+        background-size: contain;background-color:#00394f ;}
+}
+@media(max-width:1024px){
+    #main .up .right .wp{padding-left: 18%;}
+    #main .up{max-width:100%;width:100%;background:url(../img/bg/619.png) no-repeat -70% center;
+        background-size: contain;background-color:#00394f ;}
+
+}
+@media(max-width:1000px){
+    #main .up .right .wp{padding-left: 15%;width: 70%;}
+    #main .up{max-width:100%;width:100%;background:url(../img/bg/619.png) no-repeat -90% center;
+        background-size: contain;background-color:#00394f ;}
+}
+@media(max-width:955px){
+    #main .up .right .wp{width: 72%;}
+    #main .up{max-width:100%;width:100%;background:url(../img/bg/619.png) no-repeat -110% center;
+        background-size: contain;background-color:#00394f ;}
+}
+@media(max-width:920px){
+    #main .up{max-width:100%;width:100%;background:url(../img/bg/619.png) no-repeat -130% center;
+        background-size: contain;background-color:#00394f ;}
+    #main .up p{font-size:1.8rem;}
+}
+@media(max-width:895px){
+    #main .up .right .wp{width:88%;padding-left: 30%;}
+    #main .up{max-width:100%;width:100%;background:url(../img/bg/619.png) no-repeat -150% center;
+        background-size: contain;background-color:#00394f ;}
+}
+@media(max-width:888px){
+    #main .up{max-width:100%;width:100%;background:url(../img/bg/619.png) no-repeat -170% center;
+        background-size: contain;background-color:#00394f ;}
+}
+@media(max-width:871px){
+    #main .up{max-width:100%;width:100%;background:url(../img/bg/618.png) no-repeat left center;
+        background-size: contain;background-color:#00394f ;}
+    span.r2 {font-size: 1.4rem;}
+}
+@media(max-width:800px){
+    #main .up .right .wp{width:100%;padding-left: 35%;}
+    #main div.down{width: 90%;}
+
+}
+@media(max-width:730px){
+    #main .up{max-width:100%;width:100%;background:url(../img/bg/618.png) no-repeat -5% center;
+        background-size: contain;background-color:#00394f ;}
+    #main .up .right .wp{width:100%;padding-left: 30%;}
+}
+@media(max-width:700px){
+    .down p {width: 30%;margin:4% 3%;}
+    #main .up{height: 300px;margin-top: 40px;}
+    #main .up .right .wp {margin-top: 40px;}
+}
+@media(max-width:673px){
+    #main .up{background: none;background-color:#00394f ;}
+    #main .up .right .wp{padding-left: 0;text-align: center;}
+    .down p {width: 36%;margin:4%;}
+}
+@media(max-width:632px){
+    #main .up{margin-top:40px;}
+}
+@media(max-width:556px){
+    #main div.down{100%;}
+    .down p{width: 60%;}
+}
+@media(max-width:545px){
+    #main .up{margin-top:60px;}
+}
+@media(max-width:470px){
+    .down p{width: 70%;margin:7%;}
+}
+@media(max-width:414px){
+     #main .up{margin-top:80px;}
+    #main .up p {font-size: 1.6rem;}
+}
+@media(max-width:375px){
+    #main .up{margin-top:120px;}
+    #main .up p {font-size: 1.4rem;}
+    #main .up{height: 280px;}
+    .down p{width: 75%;}
+}
